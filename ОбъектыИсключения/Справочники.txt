@@ -1,0 +1,4 @@
+// Полное исключенные из теста
+
+ExternalUsersGroups
+

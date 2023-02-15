@@ -1,0 +1,8 @@
+// Исключение из сценариев открытия формы объекта
+
+DBDocs.ФормаОбъекта
+DBObjectAutofillRules.ФормаОбъекта
+DigitalSignatureAndEncryptionKeysCertificates.ФормаОбъекта
+MailoutProtocol.ФормаОбъекта
+PeriodicTransactionsDatesCalcMethods.ФормаОбъекта
+Reports.ФормаОбъекта
