@@ -1,5 +1,6 @@
 // Полное исключенные из теста
 
+AdministrationPanelWE
 CalculatedValuesDrilldown
 ContactInformationInput
 DataExchangeExecution

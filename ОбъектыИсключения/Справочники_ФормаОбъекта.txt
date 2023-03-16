@@ -1,5 +1,6 @@
 // Исключение из сценариев открытия формы объекта
 
+ApproachesOfPeriodicTransactionsDatesCalc.ФормаОбъекта
 DBDocs.ФормаОбъекта
 DBObjectAutofillRules.ФормаОбъекта
 DigitalSignatureAndEncryptionKeysCertificates.ФормаОбъекта

@@ -1,4 +1,6 @@
 // Полное исключенные из теста
 
+CashExpenditureRequest
+
 // Отключены по ФО
 IntercompanyDiscrepanciesSettlement
