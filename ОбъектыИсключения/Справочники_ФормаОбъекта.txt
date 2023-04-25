@@ -1,9 +1,11 @@
 // Исключение из сценариев открытия формы объекта
 
 ApproachesOfPeriodicTransactionsDatesCalc.ФормаОбъекта
+DBDocuments.ФормаОбъекта
 DBDocs.ФормаОбъекта
 DBObjectAutofillRules.ФормаОбъекта
 DigitalSignatureAndEncryptionKeysCertificates.ФормаОбъекта
 MailoutProtocol.ФормаОбъекта
 PeriodicTransactionsDatesCalcMethods.ФормаОбъекта
 Reports.ФормаОбъекта
+ReportsOptions.ФормаОбъекта
