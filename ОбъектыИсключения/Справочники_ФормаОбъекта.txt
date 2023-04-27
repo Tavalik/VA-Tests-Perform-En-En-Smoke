@@ -1,6 +1,7 @@
 // Исключение из сценариев открытия формы объекта
 
 ApproachesOfPeriodicTransactionsDatesCalc.ФормаОбъекта
+DatabaseTables.ФормаОбъекта
 DBDocuments.ФормаОбъекта
 DBDocs.ФормаОбъекта
 DBObjectAutofillRules.ФормаОбъекта
