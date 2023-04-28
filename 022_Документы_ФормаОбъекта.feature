@@ -5,7 +5,7 @@
 
 Функциональность: Дымовые тесты - Документы - ФормаОбъекта
 # Конфигурация: 1C:Perform
-# Версия: 3.2.4.3
+# Версия: 3.2.4.9
 
 Контекст:
 	Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий
@@ -118,7 +118,7 @@
 		Тогда я вызываю исключение "Не удалось открыть основную форму документа Elimination"
 	И Я закрываю текущее окно
 
-Сценарий: Открытие формы документа "Recognition of financial instruments at depreciated cost"
+Сценарий: Открытие формы документа "Financial instrument recognition at amortized cost"
 
 	Дано Я открываю основную форму документа "EnterFinancialInstrumentsInfo"
 	Если появилось предупреждение Тогда
@@ -334,7 +334,7 @@
 		Тогда я вызываю исключение "Не удалось открыть основную форму документа RecognitionOfFinancialInstrumentsExpenses"
 	И Я закрываю текущее окно
 
-Сценарий: Открытие формы документа "Repetition of previous period adjustments"
+Сценарий: Открытие формы документа "Posting of previous period adjustments"
 
 	Дано Я открываю основную форму документа "RepeatOfAdjustmentPostingPastPeriods"
 	Если появилось предупреждение Тогда
@@ -343,7 +343,7 @@
 		Тогда я вызываю исключение "Не удалось открыть основную форму документа RepeatOfAdjustmentPostingPastPeriods"
 	И Я закрываю текущее окно
 
-Сценарий: Открытие формы документа "Impaired receivables and advance payments issued"
+Сценарий: Открытие формы документа "Allowances for expected credit losses of accounts receivable and advance payment"
 
 	Дано Я открываю основную форму документа "ReservesOnARAndIssuedAdvances"
 	Если появилось предупреждение Тогда
@@ -361,7 +361,7 @@
 		Тогда я вызываю исключение "Не удалось открыть основную форму документа RestoreNCAFromExpenses"
 	И Я закрываю текущее окно
 
-Сценарий: Открытие формы документа "Recognition of financial instruments at fair value"
+Сценарий: Открытие формы документа "Financial instrument recognition at fair value"
 
 	Дано Я открываю основную форму документа "RevaluationOfFinancialInstruments"
 	Если появилось предупреждение Тогда

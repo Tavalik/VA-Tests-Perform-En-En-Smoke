@@ -5,7 +5,7 @@
 
 Функциональность: Дымовые тесты - Документы - Копирование
 # Конфигурация: 1C:Perform
-# Версия: 3.2.4.3
+# Версия: 3.2.4.9
 
 Контекст:
 	Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий
@@ -273,7 +273,7 @@
 				|	Документ.CustomizableReport КАК ТекДанныеИсточник
 				|ГДЕ
 				|	НЕ ТекДанныеИсточник.ПометкаУдаления
-				|	И ТекДанныеИсточник.Проведен");
+				|	");
 			ВыборкаЗапроса = Запрос.Выполнить().Выбрать();
 			Если ВыборкаЗапроса.Следующий() Тогда
 				Объект.ЗначениеНаСервере = ПолучитьНавигационнуюСсылку(ВыборкаЗапроса.Ссылка);
@@ -360,7 +360,7 @@
 				Если имя текущей формы "ErrorWindow" Тогда
 					Тогда я вызываю исключение "Не удалось записать новый элемент документа DeferredTaxesReclass"
 
-Сценарий: Копирование элемента документа "Recognition of financial instruments at depreciated cost" (EnterFinancialInstrumentsInfo)
+Сценарий: Копирование элемента документа "Financial instrument recognition at amortized cost" (EnterFinancialInstrumentsInfo)
 
 	* Ищем ссылку на существующий элемент
 		И я выполняю код встроенного языка на сервере
@@ -1210,7 +1210,7 @@
 				Если имя текущей формы "ErrorWindow" Тогда
 					Тогда я вызываю исключение "Не удалось записать новый элемент документа RecognitionOfFinancialInstrumentsExpenses"
 
-Сценарий: Копирование элемента документа "Repetition of previous period adjustments" (RepeatOfAdjustmentPostingPastPeriods)
+Сценарий: Копирование элемента документа "Posting of previous period adjustments" (RepeatOfAdjustmentPostingPastPeriods)
 
 	* Ищем ссылку на существующий элемент
 		И я выполняю код встроенного языка на сервере
@@ -1260,7 +1260,7 @@
 				Если имя текущей формы "ErrorWindow" Тогда
 					Тогда я вызываю исключение "Не удалось записать новый элемент документа RepeatOfAdjustmentPostingPastPeriods"
 
-Сценарий: Копирование элемента документа "Impaired receivables and advance payments issued" (ReservesOnARAndIssuedAdvances)
+Сценарий: Копирование элемента документа "Allowances for expected credit losses of accounts receivable and advance payment" (ReservesOnARAndIssuedAdvances)
 
 	* Ищем ссылку на существующий элемент
 		И я выполняю код встроенного языка на сервере
@@ -1310,7 +1310,7 @@
 				Если имя текущей формы "ErrorWindow" Тогда
 					Тогда я вызываю исключение "Не удалось записать новый элемент документа ReservesOnARAndIssuedAdvances"
 
-Сценарий: Копирование элемента документа "Recognition of financial instruments at fair value" (RevaluationOfFinancialInstruments)
+Сценарий: Копирование элемента документа "Financial instrument recognition at fair value" (RevaluationOfFinancialInstruments)
 
 	* Ищем ссылку на существующий элемент
 		И я выполняю код встроенного языка на сервере
