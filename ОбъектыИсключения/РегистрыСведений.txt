@@ -2,4 +2,5 @@
 
 AccessRestrictionParameters
 DataExchangeRules
+ReportsSnapshots
 TextsInAddlLangs
