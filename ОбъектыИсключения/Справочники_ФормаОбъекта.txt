@@ -1,11 +1,17 @@
 // Исключение из сценариев открытия формы объекта
 
+AccumulationRegistersDB.ФормаОбъекта
 ApproachesOfPeriodicTransactionsDatesCalc.ФормаОбъекта
 DatabaseTables.ФормаОбъекта
+DBAccountingRegister.ФормаОбъекта
+DBCatalogs.ФормаОбъекта
+DBChartsOfCharacteristicTypes.ФормаОбъекта
 DBDocuments.ФормаОбъекта
 DBDocs.ФормаОбъекта
+DBEnumerations.ФормаОбъекта
 DBObjectAutofillRules.ФормаОбъекта
 DigitalSignatureAndEncryptionKeysCertificates.ФормаОбъекта
+InformationRegistersDB.ФормаОбъекта
 MailoutProtocol.ФормаОбъекта
 PeriodicTransactionsDatesCalcMethods.ФормаОбъекта
 Reports.ФормаОбъекта
